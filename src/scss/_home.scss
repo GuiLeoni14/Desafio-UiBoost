@@ -5,8 +5,9 @@
     padding-top: 15rem;
     .container{
         .main-home{
+            position: relative;
             display: flex;
-            align-items: center;
+            align-items: flex-end;
             justify-content: space-between;
             .main-text{
                 width: 100%;
@@ -33,6 +34,8 @@
                     line-height: 150%;
                     color: rgba(255, 255, 255, 0.7);
                     margin-bottom: 8.6rem;
+                    width: 100%;
+                    max-width: 53rem;
                 }
                 .main-blocks{
                     display: flex;
@@ -60,6 +63,49 @@
                             position: absolute;
                         }
                     }
+                }
+            }
+            #foguete{
+                position: absolute;
+                top: -33rem;
+                right: 10rem
+            }
+            .text-left{
+                width: 100%;
+                max-width: 25rem;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                flex-direction: column;
+                position: relative;
+                .data{
+                    background: linear-gradient(37.87deg, rgba(1, 149, 255, 0.1),
+                    rgba(1, 213, 228, 0.39), #01D4E4);
+                    width: 40rem;
+                    padding: 2rem;
+                    border-radius: 0rem 2rem;
+                    margin-bottom: 4rem;
+                    h4{                    
+                        font-family: 'Archivo', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 120%;
+                        /* or 29px */
+                        text-align: right;
+    
+                        color: #FFFFFF;
+                    }
+                }
+                span{
+                    font-family: 'Inter', sans-serif;
+                    text-align: right;
+                    font-weight: normal;
+                    font-size: 1.8rem;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                    position: absolute;
+                    bottom: -6rem;
                 }
             }
         }
