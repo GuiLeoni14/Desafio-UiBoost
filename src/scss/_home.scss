@@ -1,0 +1,67 @@
+.s-home{
+    background: url('../img/bg-home.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 15rem;
+    .container{
+        .main-home{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .main-text{
+                width: 100%;
+                max-width: 71rem;
+                h1{
+                    color: #ffffff;
+                    margin-top: 2rem 0rem;
+                }
+                span{
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: bold;
+                    font-size: 1.8rem;
+                    line-height: 120%;
+                    /* identical to box height, or 22px */
+                    text-transform: uppercase;
+                    background: linear-gradient(to right, #0194FF, #01EADA);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                h4{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: normal;
+                    font-size: 2rem;
+                    line-height: 150%;
+                    color: rgba(255, 255, 255, 0.7);
+                    margin-bottom: 8.6rem;
+                }
+                .main-blocks{
+                    display: flex;
+                    align-items: center;
+                    .block-primary{
+                        position: relative;
+                        padding: 2rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+                        max-width: 22.3rem;
+                        background-color: #FFFFFF;
+                        margin-right: 1.2rem;
+                        border-radius: 0.4rem;
+                        h6{
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            font-size: 1.8rem;
+                            line-height: 150%;
+                            color: $gray-300;
+                        }
+                        #enjoy{
+                            bottom: -6rem;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
