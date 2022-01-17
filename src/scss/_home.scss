@@ -300,4 +300,21 @@
             }
         }
     }
+    @include responsive(768px){
+        .container{
+            .main-premio{
+                .card-premio{
+                    h2{
+                        font-size: 3.2rem;
+                    }
+                    .cards{
+                        gap: 2.4rem;
+                        .card{
+                            margin-left: 0rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
