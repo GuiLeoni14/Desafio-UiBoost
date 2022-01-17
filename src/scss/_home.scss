@@ -252,3 +252,52 @@
         }
     }
 }
+
+.s-premio{
+    padding-top: 10rem;
+    .main-premio{
+        .card-premio{
+            padding: 8rem 4rem 10rem 4rem;
+            background: url("../img/bg-premios.png") no-repeat center center;
+            background-size: cover;
+            border-radius: 2.4rem 2.4rem 0rem 0rem;
+            h2{
+                text-align: center;
+                font-weight: 600;
+                font-size: 3.2rem;
+                line-height: 120%;
+                text-align: center;
+                letter-spacing: 0.02em;
+                margin-bottom: 5.5rem;
+                color: #FFFFFF;
+            }
+            .cards{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                .card{
+                    border-radius: 0.8rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100%;
+                    max-width: 26rem;
+                    padding: 5rem 0rem;
+                    background-color: $gray-200;
+                    span{
+                        margin-top: 3rem;
+                        font-weight: 600;
+                        font-size: 2rem;
+                        line-height: 120%;
+                        color: #FFFFFF;
+                    }
+                    &:not(:first-child){
+                        margin-left: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
