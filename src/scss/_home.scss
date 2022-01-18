@@ -556,6 +556,47 @@
             }
         }
     }
+    @include responsive(768px){
+        .container{
+            .main-avaliacao{
+                align-items: center;
+                .cards{
+                    align-items: center;
+                    flex-direction: column;
+                    .card{
+                        align-items: center;
+                        p{
+                            text-align: center;
+                        }
+                        &:not(:first-child){
+                            margin-top: 6.4rem;
+                            margin-left: 0rem;
+                        }
+                    }
+                }
+                .curtiu{
+                    flex-direction: column;
+                    h4{
+                        margin-right: 0rem;
+                    }
+                    .block-primary{
+                        margin-top: 3.2rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .organizado{
+                    flex-direction: column;
+                    .left, .right{
+                        align-items: center;
+                    }
+                    .right{
+                        margin-left: 0rem;
+                        margin-top: 7.4rem;
+                    }
+                }
+            }
+        }
+    }
 }
 
 footer{
@@ -568,16 +609,16 @@ footer{
             width: 100%;
         }
         #nuven-footer-1{
-            bottom: 0;
+            bottom: -2rem;
             z-index: 10;
         }
         #nuven-footer-2{
             z-index: 9;
-            bottom: -10rem;
+            bottom: -1rem;
         }
         #nuven-footer-3{
             z-index: 8;
-            bottom: -24rem;
+            bottom: -5rem;
         }
         span{
             z-index: 11;
@@ -589,6 +630,21 @@ footer{
             color: $gray-100;
             bottom: 0rem;
             transform: translate(-50%,-50%);
+        }
+    }
+    @include responsive(768px){
+        .nuvens{
+            #nuven-footer-1{
+                bottom: 0;
+            }
+            #nuven-footer-2{
+                z-index: 9;
+                bottom: 2rem;
+            }
+            #nuven-footer-3{
+                z-index: 8;
+                bottom: 0rem;
+            }
         }
     }
 }
