@@ -114,6 +114,8 @@
                 flex-direction: column;
                 align-items: center;
                 .text-left{
+                    max-width: 32rem;
+                    padding-right: 7rem;
                     padding-top: 37rem;
                     align-self: flex-end;
                     .data{
@@ -127,27 +129,6 @@
                     right: 20rem;
                     //left: 0;
                     // bottom: -7.5rem;
-                }
-            }
-        }
-    }
-    @include responsive(768px){
-        background-position: 70% 0%;
-        .container{
-            .main-home{
-                .main-text{
-                    display: flex;
-                    align-items: center;
-                    flex-direction: column;
-                    text-align: center;
-                    .main-blocks{
-                        #blocks{
-                            display: none;
-                        }
-                        #enjoy{
-                            display: none;
-                        }
-                    }
                 }
             }
         }
@@ -179,6 +160,71 @@
             padding-top: 32rem;
             #nuven-2{
                 bottom: -10rem;
+            }
+        }
+    }
+    @include responsive(768px){
+        background-position: 70% 0%;
+        .container{
+            .main-home{
+                .main-text{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+                    .main-blocks{
+                        #blocks{
+                            display: none;
+                        }
+                        #enjoy{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .nuvens{
+            #nuven-3{
+                bottom: -15rem;
+            }
+        }
+    }
+    @include responsive(375px){
+        .container{
+            .main-home{
+                .main-text{
+                    h1{
+                        font-size: 3rem;
+                    }
+                    h4{
+                        font-size: 1.8rem;
+                        margin-bottom: 4rem;
+                    }
+                }
+                .text-left{
+                    margin-top: 8.1rem;
+                    align-items: center;
+                    .data{
+                        margin-top: 3rem;
+                        padding: 0rem;
+                        background: none;
+                        width: auto;
+                    }
+                    #foguete{
+                        max-width: 29.6rem;
+                        top: 0;
+                        right: auto;
+                        z-index: 11;
+                    }
+                    #icon-telegram{
+                        margin-top: 4rem;
+                    }
+                    span{
+                        margin-top: 1.4rem;
+                        position: relative;
+                        bottom: auto;
+                    }
+                }
             }
         }
     }
