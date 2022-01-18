@@ -110,7 +110,7 @@
                     bottom: -6rem;
                 }
             }
-            @include responsive(768px){
+            @include responsive(991px){
                 flex-direction: column;
                 align-items: center;
                 .text-left{
@@ -156,14 +156,14 @@
             max-width: 130rem;
             bottom: -26rem;
         }
-        @include responsive(768px){
+        @include responsive(991px){
             padding-top: 32rem;
             #nuven-2{
                 bottom: -10rem;
             }
         }
     }
-    @include responsive(768px){
+    @include responsive(991px){
         background-position: 70% 0%;
         .container{
             .main-home{
@@ -289,7 +289,7 @@
             }
         }
     }
-    @include responsive(768px){
+    @include responsive(991px){
         .container{
             .main-desafio{
                 .main-cards{
@@ -415,7 +415,7 @@
             }
         }
     }
-    @include responsive(768px){
+    @include responsive(991px){
         .container{
             .main-premio{
                 .card-premio{
@@ -479,6 +479,9 @@
                                 margin-left: 1.6rem;
                                 margin-top: 0rem;
                                 font-size: 1.6rem;
+                            }
+                            &:not(:first-child){
+                                margin-left: 0rem;
                             }
                         }
                     }
@@ -645,7 +648,7 @@
             }
         }
     }
-    @include responsive(768px){
+    @include responsive(991px){
         .container{
             .main-avaliacao{
                 align-items: center;
@@ -754,7 +757,7 @@ footer{
             transform: translate(-50%,-50%);
         }
     }
-    @include responsive(768px){
+    @include responsive(991px){
         .nuvens{
             #nuven-footer-1{
                 bottom: 0;
