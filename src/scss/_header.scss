@@ -21,7 +21,7 @@ header{
                     line-height: 150%;
                     color: #FFFFFF;
                 }
-                @include responsive(375px){
+                @include responsive(600px){
                     span{
                         display: none;
                     }

@@ -189,7 +189,7 @@
             }
         }
     }
-    @include responsive(375px){
+    @include responsive(600px){
         .container{
             .main-home{
                 .main-text{
@@ -452,7 +452,7 @@
             }
         }
     }
-    @include responsive(375px){
+    @include responsive(600px){
         .container{
             .main-premio{
                 .card-premio{
@@ -686,6 +686,39 @@
             }
         }
     }
+    @include responsive(600px){
+        .container{
+            .main-avaliacao{
+                align-items: center;
+                padding-left: 0rem;
+                .cards{
+                    .card{
+                        span{
+                            font-size: 2.4rem;
+                        }
+                        p{
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+                .organizado{
+                    .left, .right{
+                        .empresas{
+                            display: flex;
+                            flex-direction: column;
+                            img{
+                                max-width: 12rem;
+                                &:not(:first-child){
+                                    margin-left: 0rem;
+                                    margin-top: 5.6rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 footer{
@@ -733,6 +766,14 @@ footer{
             #nuven-footer-3{
                 z-index: 8;
                 bottom: 0rem;
+            }
+        }
+    }
+    @include responsive(600px){
+        padding-top: 28rem;
+        .nuvens{
+            span{
+                font-size: 1rem;
             }
         }
     }
