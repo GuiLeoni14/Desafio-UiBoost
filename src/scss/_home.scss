@@ -227,6 +227,15 @@
                 }
             }
         }
+        .nuvens{
+            padding-top: 12rem;
+            #nuven-2{
+                bottom: -5rem;
+            }
+            #nuven-3{
+                bottom: -7rem;
+            }
+        }
     }
 }
 
@@ -436,6 +445,40 @@
                             }
                             &:not(:first-child){
                                 margin-top: 4.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @include responsive(375px){
+        .container{
+            .main-premio{
+                .card-premio{
+                    padding: 4.8rem 2.8rem 8.6rem 2.8rem;
+                    h2{
+                        font-size: 2.4rem;
+                        letter-spacing: 0rem;
+                    }
+                }
+                .card-participe{
+                    h3{
+                        font-size: 2.4rem;
+                    }
+                    p{
+                        font-size: 1.6rem;
+                        margin-bottom: 4.1rem;
+                    }
+                    .cards{
+                        .card{
+                            align-items: flex-start;
+                            flex-direction: row;
+                            span{
+                                text-align: start;
+                                margin-left: 1.6rem;
+                                margin-top: 0rem;
+                                font-size: 1.6rem;
                             }
                         }
                     }
