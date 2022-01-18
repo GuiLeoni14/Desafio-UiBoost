@@ -259,6 +259,7 @@
         display: flex;
         flex-direction: column;
         .card-premio{
+            z-index: 2;
             padding: 8rem 4rem 10rem 4rem;
             background: url("../img/bg-premios.png") no-repeat center center;
             background-size: cover;
@@ -302,6 +303,7 @@
             }
         }
         .card-participe{
+            margin-top: -3rem;
             align-self: center;
             display: flex;
             flex-direction: column;
@@ -373,6 +375,7 @@
                     }
                 }
                 .card-participe{
+                    max-width: 71rem;
                     p{
                         max-width: 62rem;
                     }
@@ -392,6 +395,200 @@
                     }
                 }
             }
+        }
+    }
+}
+
+.s-avaliacao{
+    padding-top: 10rem;
+    .container{
+        .main-avaliacao{
+            padding-left: 8rem;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            .cards{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                .card{
+                    width: 100%;
+                    max-width: 45rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    span{
+                        margin: 2.4rem 0rem;
+                        font-weight: bold;
+                        font-size: 3.2rem;
+                        line-height: 120%;
+                        color: $gray-200;
+                        letter-spacing: 0.02em;
+                    }
+                    p{
+                        font-weight: normal;
+                        color: $gray-400;
+                        font-size: 1.8rem;
+                        line-height: 150%;
+                        span{
+                            font-weight: normal;
+                            color: #5935FF;
+                            font-size: 1.8rem;
+                            line-height: 150%;
+                        }
+                    }
+                    .time{
+                        margin-top: 2.4rem;
+                        display: flex;
+                        h6{
+                            font-weight: normal;
+                            font-size: 1.8rem;
+                            line-height: 150%;
+                            margin-left: 1.8rem;
+                            color: $gray-300;
+                        }
+                    }
+                    &:not(:first-child){
+                        margin-left: 13rem;
+                    }  
+                }
+            }
+            .curtiu{
+                margin-top: 8rem;
+                position: relative;
+                width: 100%;
+                max-width: 100rem;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 2.8rem 0rem;
+                h4{
+                    font-weight: 600;
+                    color: $gray-100;
+                    font-size: 2.4rem;
+                    line-height: 120%;
+                    margin-right: 28rem;
+                }
+                .block-primary{
+                    padding: 2rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 22.3rem;
+                    background-color: #F6F6F9;
+                    margin-right: 1.2rem;
+                    border-radius: 0.4rem;
+                    h6{
+                        margin-left: 1.5rem;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 1.8rem;
+                        line-height: 150%;
+                        color: $gray-300;
+                    }
+                }
+                &::after{
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    content: '';
+                    width: 100%;
+                    height: 0.1rem;
+                    background-color: rgba(115, 115, 128, 0.2);
+                }
+                &::before{
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    content: '';
+                    width: 100%;
+                    height: 0.1rem;
+                    background-color: rgba(115, 115, 128, 0.2);
+                }
+            }
+            .organizado{
+                margin-top: 5.6rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                .left{
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    span{
+                        margin-bottom: 4rem;
+                        font-weight: 600;
+                        font-size: 2rem;
+                        line-height: 120%;
+                        color: $gray-100;
+                    }
+                    .empresas{
+                        img{
+                            &:not(:first-child){
+                                margin-left: 5rem;
+                            }
+                        }
+                    }
+                }
+                .right{
+                    margin-left: 7.5rem;
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    span{
+                        margin-bottom: 4rem;
+                        font-weight: 600;
+                        font-size: 2rem;
+                        line-height: 120%;
+                        color: $gray-100;
+                    }
+                    .empresas{
+                        img{
+                            &:not(:first-child){
+                                margin-left: 5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    padding-top: 50rem;
+    overflow-y: hidden;
+    .nuvens{
+        position: relative;
+        img{
+            position: absolute;
+            width: 100%;
+        }
+        #nuven-footer-1{
+            bottom: 0;
+            z-index: 10;
+        }
+        #nuven-footer-2{
+            z-index: 9;
+            bottom: -10rem;
+        }
+        #nuven-footer-3{
+            z-index: 8;
+            bottom: -24rem;
+        }
+        span{
+            z-index: 11;
+            position: absolute;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 150%;
+            left: 50%;
+            color: $gray-100;
+            bottom: 0rem;
+            transform: translate(-50%,-50%);
         }
     }
 }
