@@ -4,7 +4,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5rem;
+    height: 10rem;
+    transition: all .3S;
+    z-index: 2022;
     .container{
         .main-header{
             display: flex;
@@ -29,4 +31,9 @@ header{
             }
         }
     }
+}
+
+.fixed-menu{
+    background-color: $gray-300;
+    box-shadow: 1rem 1rem 1rem #000;
 }

@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/plugins.css">
     <link rel="stylesheet" href="./src/css/main.css">
     <title>Desafio Uiboost</title>
 </head>
 <body>
-    <header>
+    <header class="js-header">
         <div class="container">
             <div class="main-header">
                 <div class="logo">
@@ -27,7 +28,7 @@
     <section class="s-home">
         <div class="container">
             <div class="main-home">
-                <div class="main-text">
+                <div class="main-text" data-aos="fade-right">
                     <span>Desafio uiBoost 2020</span>
                     <h1>Crie uma interface, seja avaliado e concorra a prêmios</h1>
                     <h4>Desafio com escopo real em parceria com Raia Drogasil.
@@ -41,14 +42,14 @@
                         <img src="./src/img/icon-blocks.svg" alt="" id="blocks">
                     </div>
                 </div>
-                <div class="text-left">
+                <div class="text-left" data-aos="fade-left">
                     <div class="data">
                         <h4>17 a 21 <br>
                             de agosto</h4>
                     </div>
                     <img src="./src/img/icon-telegram.svg" alt="" id="icon-telegram">
                     <span>Participe do grupo exclusivo da 2ª turma no Telegram</span>
-                    <img src="./src/img/foguete.svg" alt="" id="foguete">
+                    <img src="./src/img/foguete.svg" alt="" id="foguete" data-aos="fade-up-right" data-aos-duration="2000">
                 </div>
             </div>
         </div>
@@ -61,8 +62,8 @@
     <section class="s-desafio">
         <div class="container">
             <div class="main-desafio">
-                <h2>Como vai ser o desafio</h2>
-                <div class="main-cards">
+                <h2 data-aos="fade-down">Como vai ser o desafio</h2>
+                <div class="main-cards"  data-aos="flip-up" data-aos-duration="2000">
                     <div class="card">
                         <img src="./src/img/icon-sany.svg" alt="">
                         <h4>Briefing</h4>
@@ -91,7 +92,7 @@
     <section class="s-premio">
         <div class="container">
             <div class="main-premio">
-                <div class="card-premio">
+                <div class="card-premio" data-aos="zoom-out-down" data-aos-duration="1000">
                     <h2>Deu a louca no gerente, <br> 
                         concorra aos seguintes prêmios</h2>
                     <div class="cards">
@@ -113,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-participe">
+                <div class="card-participe" data-aos="zoom-out-up" data-aos-duration="2000">
                     <h3>Porque participar</h3>
                     <p>Além de movimentar a comunidade UI/UX, o desafio te dá a oportunidade de participar de um banco de talentos que está chamando a atenção de grandes empresas em busca de bons profissionais. </p>
                     <div class="cards">
@@ -138,12 +139,12 @@
         <div class="container">
             <div class="main-avaliacao">
                 <div class="cards">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right">
                         <img src="./src/img/icon-fogo.svg" alt="">
                         <span>Critérios de avaliação</span>
                         <p>Os critérios que utilizaremos  para avaliação dos projetos recebidos serão a estética visual,  a funcionalidade da UI, a viabilidade e também a adequação as necessidades apresentadas no  briefing.</p>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <img src="./src/img/icon-lixo.svg" alt="">
                         <span>Resultado do concurso</span>
                         <p>Live no nosso canal do <span>Youtube</span>, apresentando os ganhadores e prêmios. Para mais informações, acesse nosso grupo do <span>Telegram</span>.</p>
@@ -153,14 +154,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="curtiu">
+                <div class="curtiu"  data-aos="fade-up-left" data-aos-duration="2000">
                     <h4>Curtiu? Bora participar!</h4>
                     <div class="block-primary">
                         <img src="./src//img/icon-n.svg" alt="">
                         <h6>Cola no Briefing</h6>
                     </div>
                 </div>
-                <div class="organizado">
+                <div class="organizado"  data-aos="fade-up-right" data-aos-duration="2000">
                     <div class="left">
                         <span>Organizado por</span>
                         <div class="empresas">
@@ -169,7 +170,7 @@
                             <img src="./src/img/logo-designin.svg" alt="">
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="right"  data-aos="flip-right" data-aos-duration="2000">
                         <span>Apoio</span>
                         <div class="empresas">
                             <img src="./src/img/logo-rd.svg" alt="">

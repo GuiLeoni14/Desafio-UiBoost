@@ -1,1 +1,1 @@
-"use strict";
+"use strict";AOS.init();var header=document.querySelector(".js-header");window.addEventListener("scroll",function(){80<=window.pageYOffset?header.classList.add("fixed-menu"):header.classList.remove("fixed-menu")});
