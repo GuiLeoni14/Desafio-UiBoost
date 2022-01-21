@@ -29,6 +29,11 @@ header{
                     }
                 }
             }
+            @include responsive(991px){
+                .text{
+                    display: none;
+                }
+            }
         }
     }
 }

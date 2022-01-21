@@ -1,4 +1,7 @@
-AOS.init();
+AOS.init({
+    once: true,
+    disable: 'mobile',
+});
 const header = document.querySelector('.js-header');
 
 window.addEventListener('scroll', (() => {
