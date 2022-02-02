@@ -4,7 +4,7 @@ Template web desenvolvido no curso Codeboost, ministrado pelo William Moreira Te
 > Status: Completed ⚠️
 
 ## Objetivo:
-+ Recriar uma aplicação web, que foi desenvolvida no figma.
++ Recriar uma aplicação web, a partir de uma interface desenvolvida no figma.
 + Treinar os conceitos aprendidos durante o curso.
 
 ## Tecnologias usadas:
