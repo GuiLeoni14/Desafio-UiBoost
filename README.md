@@ -14,6 +14,7 @@ Template web desenvolvido no curso Codeboost, ministrado pelo William Moreira Te
     <td>HTML</td>
     <td>CSS</td>
     <td>SCSS</td>
+    <td>JAVASCRIPT</td>
     <td>GULP.JS</td>
   </tr>
 </table>
